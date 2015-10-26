@@ -1,0 +1,61 @@
+body {
+	background-color: #363F45;
+}
+
+header {
+	padding-top: 15px;
+}
+
+header a {
+	color: #fff;
+}
+
+.icon-bar {
+	background-color: #333338;
+}
+
+.main {
+	background-color: #ddd;
+	padding: 100px 0;
+}
+
+.main img {
+	border-radius: 40px;
+}
+
+.bae {
+	margin-bottom: 50px;
+}
+
+.baebot {
+	padding: 100px 0;
+}
+
+.social {
+	padding: 50px 0;
+}
+
+.social img {
+	height: 100px;
+}
+
+.more {
+	background-color: #ddd;
+	/*background-color: #484C63;*/
+	padding: 100px 0 70px 0;
+}
+
+.more img {
+	margin-bottom: 30px;
+}
+
+footer {
+	padding: 50px 0;
+	color: #fff;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+color: #333338;
