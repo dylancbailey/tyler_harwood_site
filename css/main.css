@@ -1,13 +1,17 @@
 body {
 	background-color: #363F45;
+	font-family: 'Arimo', sans-serif;
 }
 
 header {
-	padding-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	letter-spacing: 20px;
 }
 
-header a {
+header h1 {
 	color: #fff;
+	font-size: 55px;
 }
 
 .icon-bar {
@@ -54,8 +58,9 @@ footer {
 	color: #fff;
 }
 
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
 
-color: #333338;
+@media screen and (max-width: 664px) {
+	header h1 {
+		font-size: 45px;
+	}
+}
