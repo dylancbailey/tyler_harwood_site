@@ -1,5 +1,5 @@
 body {
-	background-color: #363F45;
+	background-color: #363F45; 
 	font-family: 'Arimo', sans-serif;
 }
 
@@ -7,6 +7,8 @@ header {
 	padding-top: 20px;
 	padding-bottom: 30px;
 	letter-spacing: 20px;
+	background: linear-gradient(to bottom,#363F45 0,#4F5A61 100%);
+	border-bottom: 5px solid #363F45;
 }
 
 header h1 {
@@ -14,12 +16,17 @@ header h1 {
 	font-size: 55px;
 }
 
+header p {
+	color: #fff;
+	padding: auto 0;
+}
+
 .icon-bar {
 	background-color: #333338;
 }
 
 .main {
-	background-color: #ddd;
+	background: url(../images/gray_jean_@2X.jpg) repeat;
 	padding: 100px 0;
 }
 
@@ -37,6 +44,7 @@ header h1 {
 
 .social {
 	padding: 50px 0;
+	background: linear-gradient(to bottom,#363F45 0,#4F5A61 100%);
 }
 
 .social img {
@@ -44,8 +52,7 @@ header h1 {
 }
 
 .more {
-	background-color: #ddd;
-	/*background-color: #484C63;*/
+	background: url(../images/gray_jean_@2X.jpg) repeat;
 	padding: 100px 0 70px 0;
 }
 
@@ -56,8 +63,8 @@ header h1 {
 footer {
 	padding: 50px 0;
 	color: #fff;
+	background: linear-gradient(to bottom,#363F45 0,#4F5A61 100%);
 }
-
 
 @media screen and (max-width: 664px) {
 	header h1 {
